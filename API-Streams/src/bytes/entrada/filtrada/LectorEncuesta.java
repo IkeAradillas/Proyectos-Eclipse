@@ -13,8 +13,8 @@ public class LectorEncuesta {
 		try(DataInputStream dis = new DataInputStream(new FileInputStream(FILE_NAME))){
 			System.out.println("Nombre: " + dis.readUTF());
 			System.out.println("Edad: " + dis.readInt());
-			System.out.println("Sueldo " + dis.readFloat());
-			System.out.println("Soltero " + (dis.readBoolean() ? "Si" : "No"));
+			System.out.println("Sueldo: " + dis.readFloat());
+			System.out.println("Soltero: " + (dis.readBoolean() ? "Si" : "No"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
