@@ -1,0 +1,1 @@
+A la POO (Programació orientada a objectes) es molt important diferenciar be la part privada de la publica per evitar qui pot accedir a elles i modificar-les. Es a dir, permet controlar l'acces i la modificació de les dades, evitant errors innecesaris. 
